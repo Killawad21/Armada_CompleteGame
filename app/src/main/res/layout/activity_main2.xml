@@ -161,9 +161,13 @@
         android:layout_centerInParent="true"
         android:layout_toLeftOf="@id/hull"
         android:onClick="hullMinus"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="moveToActivityOne" />
+        android:layout_alignParentBottom="true"
+        android:onClick="moveToActivityOne"
+        android:text="go to star destroyer"
+        android:textSize="8sp" />
 
 </RelativeLayout>

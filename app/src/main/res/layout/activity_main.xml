@@ -161,10 +161,13 @@
         android:layout_centerInParent="true"
         android:layout_toLeftOf="@id/hull"
         android:onClick="hullMinus"/>
+
     <Button
+        android:id="@+id/mainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/mainButton"
+        android:layout_alignParentBottom="true"
         android:onClick="moveToActivityTwo"
-        />
+        android:text="go to corellian cruiser"
+        android:textSize="8sp" />
 </RelativeLayout>
