@@ -169,5 +169,10 @@
         android:onClick="moveToActivityOne"
         android:text="go to star destroyer"
         android:textSize="8sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="moveToActivityThree"
+        android:text="go to card"/>
 
 </RelativeLayout>

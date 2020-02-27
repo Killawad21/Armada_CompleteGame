@@ -22,6 +22,10 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+    public void moveToActivityThree(View view){
+        Intent intent = new Intent(this, Main3Activity.class);
+        startActivity(intent);
+    }
     public void shield1plus(View view) {
         firstShield = firstShield + 1;
         if(firstShield == 3){
