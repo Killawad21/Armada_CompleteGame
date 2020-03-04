@@ -28,4 +28,7 @@ public class Main3Activity extends AppCompatActivity {
     public void changeToRed2(View view){
         findViewById(R.id.second_change).setBackgroundColor(Color.RED);
     }
+    public void changeToRed3(View view){
+        findViewById(R.id.third_change).setBackgroundColor(Color.RED);
+    }
 }

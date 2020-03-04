@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -16,5 +17,14 @@ public class Main4Activity extends AppCompatActivity {
     public void moveToActivityOne(View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+    public void changeToRed(View view){
+        findViewById(R.id.first_change).setBackgroundColor(Color.RED);
+    }
+    public void changeToRed2(View view){
+        findViewById(R.id.second_change).setBackgroundColor(Color.RED);
+    }
+    public void changeToRed3(View view){
+        findViewById(R.id.third_change).setBackgroundColor(Color.RED);
     }
 }
