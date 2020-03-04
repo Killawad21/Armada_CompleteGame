@@ -170,4 +170,11 @@
         android:onClick="moveToActivityTwo"
         android:text="go to corellian cruiser"
         android:textSize="8sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="moveToActivityFour"
+        android:text="go to card" />
 </RelativeLayout>

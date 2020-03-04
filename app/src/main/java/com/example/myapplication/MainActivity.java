@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
     }
+    public void moveToActivityFour(View view){
+        Intent intent = new Intent(this, Main4Activity.class);
+        startActivity(intent);
+    }
     public void shield1plus(View view) {
         firstShield = firstShield + 1;
         if(firstShield == 4){
