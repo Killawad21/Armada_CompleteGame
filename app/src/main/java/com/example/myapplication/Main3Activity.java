@@ -22,6 +22,10 @@ public class Main3Activity extends AppCompatActivity {
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
     }
+    public void moveToActivityFive(View view){
+        Intent intent = new Intent(this, Main5Activity.class);
+        startActivity(intent);
+    }
     public void changeToRed(View view){
         findViewById(R.id.first_change).setBackgroundColor(Color.RED);
     }

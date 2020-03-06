@@ -13,6 +13,11 @@
         android:layout_alignParentRight="true"
         android:onClick="moveToActivityTwo"
         android:text="back"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to commands"
+        android:onClick="moveToActivityFive"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
