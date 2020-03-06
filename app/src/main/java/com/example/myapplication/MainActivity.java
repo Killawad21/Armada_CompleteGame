@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-
+//This code is for the on click to move to another screen
     public void moveToActivityTwo(View view){
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Main4Activity.class);
         startActivity(intent);
     }
+    //This code adds the shield values and hull values
     public void shield1plus(View view) {
         firstShield = firstShield + 1;
         if(firstShield == 4){

@@ -13,6 +13,7 @@ public class Main5Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
     }
+    //This code is for the on click to move to another screen
     public void moveToActivityTwo(View view){
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);

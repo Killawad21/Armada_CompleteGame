@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/defence_tokens"
     tools:context=".MainActivity">
+<!--This page shows the code for my defence points which are defined in the game-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

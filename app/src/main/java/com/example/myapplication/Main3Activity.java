@@ -18,6 +18,7 @@ public class Main3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
     }
+    //This code is for the on click to move to another screen
     public void moveToActivityTwo(View view){
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
@@ -26,6 +27,7 @@ public class Main3Activity extends AppCompatActivity {
         Intent intent = new Intent(this, Main5Activity.class);
         startActivity(intent);
     }
+    //These buttons change the color to block off the defence tokens
     public void changeToRed(View view){
         findViewById(R.id.first_change).setBackgroundColor(Color.RED);
     }
