@@ -12,13 +12,14 @@
         android:layout_alignParentBottom="true"
         android:onClick="moveToActivityOne"
         android:text="go to star destroyer"
-        android:textSize="8sp" />
+        android:textSize="14.5sp" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:onClick="moveToActivityTwo"
-        android:text="go to Corellian Corvette"/>
+        android:text="go to Corellian Corvette"
+        android:textSize="14.5sp"/>
 
 </RelativeLayout>
